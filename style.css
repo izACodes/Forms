@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+    margin: 230px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    max-width:500px;
+    font-family: poppins;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

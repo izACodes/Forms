@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jowa Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Jowa Application Form</legend>
+                <form action="">
+                    <h3>Basic Information</h3>
+                    <label for="fullname">Full Name: </label><input type="text" id="fullname" required><br>
+                    <label for="age">Age: </label><input type="tel" id="age" required><br>
+                    <label for="phone">Phone Number: </label><input type="tel" id="phone" required><br>
+                    <label for="birthdate">Birthdate </label><input type="date" for="date" id="birhtdate" required><br>
+                    <h3>How long will you stay?</h3>
+                    <input type="radio" name="choose" id="rad1" value="short"><label for="rad1">0-3 Months</label>
+                    <input type="radio" name="choose" id="rad2" value="normal"><label for="rad2">0-8 Months</label>
+                    <input type="radio" name="choose" id="rad3" value="average"><label for="rad3">+ 1 year above</label>
+                    <input type="radio" name="choose" id="rad4" value="rare"><label for="rad4">Till Death Do Us Apart</label>
+
+                    <h3>Relationship Background:</h3>
+                    <p>Put <strong>N/A</strong> if wala kang masagot</p>
+                    <label for="xname">Ex Name: </label><input type="text" id="xname" required> <br>
+                    <label for="howlong">How long have you been together: </label><input type="tel" id="howlong" required><br><br>
+                    <label for="reason"><strong>Reason why you broke up: </strong></label><br>
+                    <textarea name="reason" id="reason" cols="50" rows="4" placeholder="Enter text here.." required></textarea>
+
+                    <h3>Prove Yourself:</h3>
+                    <label for="reason1"><strong>Why do you want me?</strong></label>
+                    <textarea name="reason1" id="reason1" cols="50" rows="4" placeholder="Enter your answer here.." required></textarea><br>
+                    <br>
+                    <label for="reason2"><strong>Why should I pick you?</strong></label>
+                    <textarea name="reason2" id="reason2" cols="50" rows="4" placeholder="Enter your answer here" required></textarea><br><br>
+
+                    <h3>How did you know me?</h3>
+                    <input type="radio" name="knowme" id="rad5" value="fb"><label for="rad5">Facebook</label>
+                    <input type="radio" name="knowme" id="rad6" value="twitt"><label for="rad6">Twitter</label>
+                    <input type="radio" name="knowme" id="rad7" value="insta"><label for="rad7">Instagram</label><br>
+                    <br>
+
+                    <button type="submit">Submit</button>
+                </form>
+        </fieldset>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
